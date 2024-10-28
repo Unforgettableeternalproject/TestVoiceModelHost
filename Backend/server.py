@@ -9,7 +9,7 @@ class server:
         print(torch.cuda.is_available())
         self.app = Flask(__name__)
         model_path = os.path.join(os.path.dirname(__file__), 'U.E.P_sweet.pth')
-        self.model = torch.load(model_path, map_location=torch.device('cpu'))
+        self.model = torch.load(model_path)
         
     def synthesize_speech(self, text):
         generated_audio = np.random.randn(16000 * 3)

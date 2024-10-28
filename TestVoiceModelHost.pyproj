@@ -29,6 +29,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="backend\U.E.P_sweet.pth" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -8,6 +8,7 @@ soundfile==0.10.3.post1 # For handling audio files in WAV format
 # API Hosting
 Flask==2.2.2            # Flask API framework
 Flask-Cors==3.0.10      # Handles cross-origin requests if needed
+Werkzeug==2.2.2        # Required by Flask
 
 # Discord Bot Integration
 discord.py==2.0.0       # For managing the Discord bot

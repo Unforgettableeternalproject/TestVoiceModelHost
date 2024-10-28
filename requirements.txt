@@ -1,0 +1,18 @@
+# Core Requirements
+torch==1.12.1           # Version depends on CUDA support; adjust as needed
+numpy==1.23.1           # Works well with torch
+
+# Audio Handling
+soundfile==0.10.3.post1 # For handling audio files in WAV format
+
+# API Hosting
+Flask==2.2.2            # Flask API framework
+Flask-Cors==3.0.10      # Handles cross-origin requests if needed
+
+# Discord Bot Integration
+discord.py==2.0.0       # For managing the Discord bot
+ffmpeg-python==0.2.0    # Python bindings for FFmpeg
+
+# HTTP Requests
+requests==2.28.1        # HTTP requests for API calls
+aiohttp==3.8.1          # Asynchronous HTTP client for Discord bot

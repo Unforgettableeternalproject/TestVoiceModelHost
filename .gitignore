@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Virtual Environments
+env/
+
+# Weights
+Backend/U.E.P_sweet.pth

@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="backend\caller.py" />
     <Compile Include="backend\server.py" />
     <Compile Include="TestVoiceModelHost.py" />
     <Compile Include="tts\app.py" />

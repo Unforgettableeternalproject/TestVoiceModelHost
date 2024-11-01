@@ -48,9 +48,11 @@ def synthesize():
 class server:
     def __init__(self):
         print(torch.cuda.is_available())
+        self.ip = '26.9.184.32'
+        self.port = 5000
 
     def call(self):
-        app.run(host='26.9.184.32', port=5000)
+        app.run(host=self.ip, port=self.port)
     
 if __name__ == '__main__':
     instance = server()

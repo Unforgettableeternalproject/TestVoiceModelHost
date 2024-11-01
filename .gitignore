@@ -366,4 +366,8 @@ FodyWeavers.xsd
 env/
 
 # Weights
-Backend/U.E.P_sweet.pth
+tts/weights/
+
+# Sound Files
+*.mp3
+*.wav

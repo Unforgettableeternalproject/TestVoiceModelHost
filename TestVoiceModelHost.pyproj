@@ -25,15 +25,48 @@
   <ItemGroup>
     <Compile Include="backend\server.py" />
     <Compile Include="TestVoiceModelHost.py" />
+    <Compile Include="tts\app.py" />
+    <Compile Include="tts\config.py" />
+    <Compile Include="tts\lib\infer_pack\attentions.py" />
+    <Compile Include="tts\lib\infer_pack\commons.py" />
+    <Compile Include="tts\lib\infer_pack\models.py" />
+    <Compile Include="tts\lib\infer_pack\models_dml.py" />
+    <Compile Include="tts\lib\infer_pack\models_onnx.py" />
+    <Compile Include="tts\lib\infer_pack\modules.py" />
+    <Compile Include="tts\lib\infer_pack\modules\F0Predictor\DioF0Predictor.py" />
+    <Compile Include="tts\lib\infer_pack\modules\F0Predictor\F0Predictor.py" />
+    <Compile Include="tts\lib\infer_pack\modules\F0Predictor\HarvestF0Predictor.py" />
+    <Compile Include="tts\lib\infer_pack\modules\F0Predictor\PMF0Predictor.py" />
+    <Compile Include="tts\lib\infer_pack\modules\F0Predictor\__init__.py" />
+    <Compile Include="tts\lib\infer_pack\onnx_inference.py" />
+    <Compile Include="tts\lib\infer_pack\transforms.py" />
+    <Compile Include="tts\rmvpe.py" />
+    <Compile Include="tts\vc_infer_pipeline.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="backend\U.E.P_sweet.pth" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
+    <Content Include="tts\lib\infer_pack\__pycache__\attentions.cpython-310.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\attentions.cpython-39.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\commons.cpython-310.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\commons.cpython-39.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\models.cpython-310.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\models.cpython-39.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\modules.cpython-310.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\modules.cpython-39.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\transforms.cpython-310.pyc" />
+    <Content Include="tts\lib\infer_pack\__pycache__\transforms.cpython-39.pyc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backend\" />
+    <Folder Include="tts\" />
+    <Folder Include="tts\lib\" />
+    <Folder Include="tts\lib\infer_pack\" />
+    <Folder Include="tts\lib\infer_pack\modules\" />
+    <Folder Include="tts\lib\infer_pack\modules\F0Predictor\" />
+    <Folder Include="tts\lib\infer_pack\__pycache__\" />
+    <Folder Include="tts\weights\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

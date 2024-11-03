@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2dde012e-44cd-40a1-919c-73effba8b03b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TestVoiceModelHost.py</StartupFile>
+    <StartupFile>Entry.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,7 @@
   <ItemGroup>
     <Compile Include="backend\caller.py" />
     <Compile Include="backend\server.py" />
-    <Compile Include="TestVoiceModelHost.py" />
+    <Compile Include="Entry.py" />
     <Compile Include="tts\app.py" />
     <Compile Include="tts\config.py" />
     <Compile Include="tts\lib\infer_pack\attentions.py" />

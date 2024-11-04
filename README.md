@@ -1,4 +1,4 @@
-# TestVoiceModelHost
+ï»¿# TestVoiceModelHost
 
 ## Overview
 
@@ -14,21 +14,21 @@ Voice Model Host is a project aimed at hosting a custom voice model TTS API on a
 ## Project Structure
 
 ```graphql
-¢x TestVoiceModelHost/ 
-¢u¢w¢w backend/ 
-¢x   ¢u¢w¢w caller.py  # API caller implementation
-¢x   ¢|¢w¢w server.py
-¢x 
-¢u¢w¢w tts/ 
-¢x   ¢u¢w¢w weights/  # Pre-trained model weights
-¢x   ¢u¢w¢w lib/
-¢x   ¢u¢w¢w config.py
-¢x   ¢u¢w¢w app.py
-¢x   ¢u¢w¢w rmvpe.py
-¢x   ¢|¢w¢w vc_infer__pipeline.py
-¢x 
-¢u¢w¢w Entry.py  # Entry point 
-¢|¢w¢w README.md  # Project documentation
+â”‚ TestVoiceModelHost/ 
+â”œâ”€â”€ backend/ 
+â”‚   â”œâ”€â”€ caller.py  # API caller implementation
+â”‚   â””â”€â”€ server.py
+â”‚ 
+â”œâ”€â”€ tts/ 
+â”‚   â”œâ”€â”€ weights/  # Pre-trained model weights
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”œâ”€â”€ config.py
+â”‚   â”œâ”€â”€ app.py
+â”‚   â”œâ”€â”€ rmvpe.py
+â”‚   â””â”€â”€ vc_infer__pipeline.py
+â”‚ 
+â”œâ”€â”€ Entry.py  # Entry point 
+â””â”€â”€ README.md  # Project documentation
 ```
 
 ## Reference

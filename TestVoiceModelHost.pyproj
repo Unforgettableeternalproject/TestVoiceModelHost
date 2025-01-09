@@ -13,6 +13,7 @@
     <RootNamespace>TestVoiceModelHost</RootNamespace>
     <TestFramework>Pytest</TestFramework>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,6 +26,9 @@
   <ItemGroup>
     <Compile Include="backend\caller.py" />
     <Compile Include="backend\server.py" />
+    <Compile Include="backend\__init__.py" />
+    <Compile Include="debug\testfile.py" />
+    <Compile Include="Dockerfile" />
     <Compile Include="Entry.py" />
     <Compile Include="tts\app.py" />
     <Compile Include="tts\config.py" />
@@ -45,6 +49,7 @@
     <Compile Include="tts\vc_infer_pipeline.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".dockerignore" />
     <Content Include=".gitignore" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
@@ -61,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backend\" />
+    <Folder Include="debug\" />
     <Folder Include="tts\" />
     <Folder Include="tts\lib\" />
     <Folder Include="tts\lib\infer_pack\" />

@@ -2,15 +2,15 @@ import requests
 import os
 
 # API URL (adjust if hosted elsewhere or using a different port)
-ip = "0.0.0.0" # Change to the IP address of the server
-port = "0000" # Change to the port number of the server
+ip = "26.87.187.124" # Change to the IP address of the server
+port = "5000" # Change to the port number of the server
 
 url = f"http://{ip}:{port}/synthesize" # URL for the TTS API
 
 # Data payload for the TTS request
 data = {
-    "text": "What are you doing? Oh, you're a programmer! That's awesome! What project are you working on?",
-    "f0_up_key": 8,                       # Optional pitch adjustment
+    "text": "Ennjoyyyy! Hehe!",
+    "f0_up_key": 7,                       # Optional pitch adjustment
     "f0_method": "rmvpe",                 # Pitch extraction method
     "index_rate": 0,                      # Index rate for model processing
     "protect": 0.33                       # Protection rate for the synthesis

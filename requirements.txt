@@ -7,7 +7,6 @@ cffi==1.17.1
 charset-normalizer==2.1.1
 click==8.1.7
 colorama==0.4.6
-discord.py==2.0.0
 ffmpeg-python==0.2.0
 filelock==3.13.1
 Flask==2.2.2
@@ -31,9 +30,6 @@ setuptools==65.5.0
 six==1.16.0
 SoundFile==0.10.3.post1
 sympy==1.13.1
-torch==2.5.0+cu121
-torchaudio==2.5.0+cu121
-torchvision==0.20.0+cu121
 typing_extensions==4.12.2
 urllib3==1.26.20
 Werkzeug==2.2.2

@@ -123,7 +123,9 @@ def tts(model_name, tts_text, f0_up_key=0, f0_method="rmvpe", index_rate=0, prot
     try:
         t1 = time.time()
         edge_time = t1 - t0
+        print(f"debug:{edge_output_filename}")
         audio, sr = librosa.load(edge_output_filename, sr=16000, mono=True)
+        print(f"Audio loaded from edge-tts: {edge_output_filename}")
         duration = len(audio) / sr
         print(f"Audio duration: {duration}s")
         print("Audio loaded successfully")

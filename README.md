@@ -2,7 +2,7 @@
 
 ## Overview
 
-Voice Model Host is a project aimed at hosting a custom voice model TTS API on a server. This project allows users with an access code to request TTS services using the custom voice model.
+This is a project aimed at hosting a custom voice model TTS API on a server. This project allows users to request TTS services using the custom voice model.
 
 ## Features
 

@@ -58,7 +58,7 @@ def synthesize():
 class server:
     def __init__(self):
         print(torch.cuda.is_available())
-        self.ip = '26.87.187.124'
+        self.ip = 'localhost'
         self.port = 5000
 
     def call(self):

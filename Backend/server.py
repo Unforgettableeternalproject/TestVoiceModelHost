@@ -1,4 +1,4 @@
-import torch
+ï»¿import torch
 import os
 import soundfile as sf
 from datetime import datetime
@@ -37,7 +37,7 @@ def synthesize():
             model_name, text, f0_up_key, f0_method, index_rate, protect
         )
         
-        output_path = os.path.join(os.getcwd(), "tts", 'output.wav')  # «ü©w­n«O¦sªºÀÉ®×¦WºÙ©M¸ô®|
+        output_path = os.path.join(os.getcwd(), "tts", 'output.wav')  # æŒ‡å®šè¦ä¿å­˜çš„æª”æ¡ˆåç¨±å’Œè·¯å¾‘
         sf.write(output_path, audio_data[1], audio_data[0])
         
         try:
@@ -58,7 +58,7 @@ def synthesize():
 class server:
     def __init__(self):
         print(torch.cuda.is_available())
-        self.ip = 'localhost'
+        self.ip = '26.87.187.124'
         self.port = 5000
 
     def call(self):

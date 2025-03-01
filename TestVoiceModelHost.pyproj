@@ -47,6 +47,7 @@
     <Compile Include="tts\lib\infer_pack\transforms.py" />
     <Compile Include="tts\rmvpe.py" />
     <Compile Include="tts\vc_infer_pipeline.py" />
+    <Compile Include="tts\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".dockerignore" />

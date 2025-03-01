@@ -1,4 +1,4 @@
-import os
+﻿import os
 import edge_tts
 from fairseq import checkpoint_utils
 import torch
@@ -113,7 +113,7 @@ def tts(model_name, tts_text, f0_up_key=0, f0_method="rmvpe", index_rate=0, prot
     try:
         asyncio.run(
             edge_tts.Communicate(
-                tts_text, "zh-TW-HsiaoChenNeural"
+                tts_text, "en-US-AvaNeural"
             ).save(edge_output_filename)
         )
     except Exception as e:

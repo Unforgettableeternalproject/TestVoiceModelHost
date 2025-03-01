@@ -9,7 +9,7 @@ url = f"http://{ip}:{port}/synthesize" # URL for the TTS API
 
 # Data payload for the TTS request
 data = {
-    "text": "歡迎想打扣成為各類軟體工程師或老師的你，加入高師大一起debug啦~",
+    "text": "Hi, I am bacck again.",
     "f0_up_key": 7,                       # Optional pitch adjustment
     "f0_method": "rmvpe",                 # Pitch extraction method
     "index_rate": 0,                      # Index rate for model processing

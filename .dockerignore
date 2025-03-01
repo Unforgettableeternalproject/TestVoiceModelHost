@@ -365,9 +365,6 @@ FodyWeavers.xsd
 # Virtual Environments
 env/
 
-# Weights
-tts/weights/
-
 # Sound Files
 *.mp3
 *.wav

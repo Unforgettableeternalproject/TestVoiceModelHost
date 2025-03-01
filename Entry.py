@@ -1,7 +1,7 @@
-import os
+ï»¿import os
 import sys
 
-# ½T«O Backend ¥Ø¿ı¦b sys.path ¤¤
+# ç¢ºä¿ Backend ç›®éŒ„åœ¨ sys.path ä¸­
 sys.path.append(os.path.join(os.path.dirname(__file__), 'backend'))
 
 from server import server
